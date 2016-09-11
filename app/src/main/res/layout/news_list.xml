@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:id="@+id/newsImage"
+            android:layout_margin="10dp"
+            android:src="@drawable/putih" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Launching TrashMe!"
+                android:id="@+id/newsHead"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Users can interact with your bot via inline queries straight from the text input field in any chat. All they need to do is start a message with your bot&apos;s username and then type a query.  Having received the query, your bot can return some results. As soon as the user taps one of them, it will be sent to the user&apos;s currently opened chat. This way, people can request content from your bot in any of their chats, groups or channels.  Check out this blog to see a sample inline bot in action. You can also try the @sticker and @music bots to see for yourself."
+                android:id="@+id/newsDes"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="13dp"
+                android:layout_marginBottom="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

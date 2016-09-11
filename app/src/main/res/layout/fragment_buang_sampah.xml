@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sv_2016.trashme.BuangSampahFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:id="@+id/imageView4"
+        android:src="@drawable/dashboard_buangsampah"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ayo tekan tombol dibawah untuk membuang sampah B3 mu !!"
+                android:id="@+id/textView16"
+                android:layout_below="@+id/imageView4"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:src="@drawable/pencetan"
+                android:layout_below="@+id/textView16"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

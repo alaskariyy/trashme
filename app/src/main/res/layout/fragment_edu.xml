@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sv_2016.trashme.EduFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:id="@+id/imageView4"
+        android:src="@drawable/dashboard_tentangsampah"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView5"
+        android:layout_below="@+id/imageView4"
+        android:layout_margin="10dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Limbah B3 Dan Contohnya"
+                    android:id="@+id/textView22"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Limbah adalah hal yang paling umum kita hasilkan sebagai makhuk hidup. Tak hanya pabrik dan kendaraan bermotor saja yang dapat menghasilkan limbah, tetapi kita sebagai makhluk hidup juga merupakan penghasil limbah yang sangat produktif. Limbah atau hasil akhir suatu proses ternyata tidak hanya terkelompokan dalam satu macam saja. Melainkan ada banyak jenis limbah yang telah dikalsifikasikan dan diatur oleh pemerintah, dimana salah satunya adalah limbah b3. Apa itu limbah b3? Mungkin banyak dari kita yang belum mengenal apa itu limbah b3, padahal tanpa kita sadari dalam kehidupan sehari-hari kita sudah menghasilkan limbah b3 tersebut."
+                    android:id="@+id/textView23"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_alignLeft="@+id/scrollView5"
+                    android:layout_alignStart="@+id/scrollView5"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Pengertian Limbah B3"
+                    android:id="@+id/textView32"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Ya, jadi pemerintah telah memiliki bahasan tersendiri menganai limbah b3 ini. Dimana dalam peraturan pemerintah nomor 74 tahun 2001 telah didefinisikan apa itu limbah b3 atau limbah bahan berbahaya dan beracun. Limbah bahan berbahaya dan beracun yang disingkan dengan limbah b3 ini adalah limbah yang jika diperhatikan secara sifatnya, konsentrasinya, termasuk jumlahnya memiliki kecenderungan mencemari lingkungan sekitar, membahayan lingkungan disekitar kita hingga menghambat/merusak keberlangsungan hidup manusia dan makhluk hidup lainya."
+                    android:id="@+id/textView26"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_alignLeft="@+id/scrollView5"
+                    android:layout_alignStart="@+id/scrollView5"
+                    android:layout_marginBottom="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Contoh Limbah B3"
+                    android:id="@+id/textView33"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Karena limbah b3 sendiri telah diatur oleh pemerintah, kita tidak bisa serta merta menentukan ini limbah b3, itu limbah b3 atau yang lainya. Karena baik itu klasifikasi dan contohnya telah banyak diatur pada peraturan pemerintah dengan nomor yang sama. Yaitu contoh dari limbah b3 adalah limbah yang memiliki ciri-ciri seperti berikut ini:"
+                    android:id="@+id/textView27"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_alignLeft="@+id/scrollView5"
+                    android:layout_alignStart="@+id/scrollView5"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="- Mudah meledak\nOksidasi tinggi dan mudah menyala/terbakar adalah contoh ciri-ciri dari salah satu jenis limbah b3 yang pertama. Jadi, jika kita menemukan sesuatu yang sekiranya tak terpakai tetapi memiliki tanda-tanda mudah meledak, oksidasi tinggi dan mudah terbakar sudah masuk dalam kategori limbah bahan berbahaya dan beracun. Seperti misalnya kaleng bekas gas, kaleng bekas obat nyamuk, korek isi gas yang tak terpakai."
+                    android:id="@+id/textView28"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_alignLeft="@+id/scrollView5"
+                    android:layout_alignStart="@+id/scrollView5"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="– Beracun\nBahan bekas/limbah apa saja yang memiliki resiko meracuni manusia dan makhluk hidup lainya, menyebabkan kesakitan pada makhluk hidup, mematikan keseburan tanaman/lingkungan, menyebakan kecacatan/kesakitan jika bersentuhan dengan kulit, mata, terminum dan lainya misalnya bekas cairan pembersih lantai."
+                    android:id="@+id/textView29"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_alignLeft="@+id/scrollView5"
+                    android:layout_alignStart="@+id/scrollView5"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="– Korosif\nDisebut korosif jika akan menimbulkan reaksi kimia jika limbah ini tersentuh tangan sehingga terjadi ruam-ruam merah, rasa panas hingga menyebabkan kerusakan kulit. Tak hanya itu, disebut juga korosif jika menyebabkan reaksi berkarat pada besi ketika tersentuh besi. Limbah yang memiliki kadar PH asam ≤ 2 dan basa lebih dari 12.5 juga masuk dalam kategori korosif seperti contohnya limbah b3 yang termasuk dalam kategori ini adalah pemutih pakaian, pembersih porselen, dan cairan kimia lainya."
+                    android:id="@+id/textView30"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_alignLeft="@+id/scrollView5"
+                    android:layout_alignStart="@+id/scrollView5"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="– Infeksius\nKarakteristik limbah b3 yang berikutnya juga limbah yang infeksius. Limbah infeksius memang jarang ditemukan pada limbah rumah tangga. Tetapi, tempat-tempat tertentu seperti rumah sakit dan klinik adalah sumber utama limbah b3 yang satu ini. Ada banyak sekali contoh dari limbah b3 infeksius ini seperti misalnya jarum suntik, selang infus, verban bekas luka pasien, darah, dan hal-hal lain yang sejenis."
+                    android:id="@+id/textView25"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_alignLeft="@+id/scrollView5"
+                    android:layout_alignStart="@+id/scrollView5"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Pengelolahan limbah b3 ini sendiri juga sudah diatur oleh peraturan dan nomor yang sama dimana tujuan dari pengelolahan limbah ini adalah mencegah terjadinya kerusakan lingkungan dan menanggulangi akibat dari limbah b3 ini, serta melakukan upaya penyelesaian dan pemulihan pada hal-hal yang sudah terlanjur tercemar oleh limbah b3 ini dengan melakukan upaya paling maksimal agar kualitas lingkungan dan kesehatan dapat kembali seperti semula."
+                    android:id="@+id/textView31"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_alignLeft="@+id/scrollView5"
+                    android:layout_alignStart="@+id/scrollView5"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="  Demikian penjelasan tentang limbah b3 yang dikumpulkan oleh Media K3 dari berbagai sumber.  Semoga bermanfaat bagi pembaca."
+                    android:id="@+id/textView24"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_alignLeft="@+id/scrollView5"
+                    android:layout_alignStart="@+id/scrollView5" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_news"
+
+            android:title="Berita" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/about"
+            android:title="Tentang TrashMe" />
+    </group>
+
+    <item android:title="My Trash">
+        <menu>
+            <item
+                android:id="@+id/nav_buangsampah"
+                android:title="Buang Sampah" />
+            <item
+                android:id="@+id/nav_tukarkoin"
+
+                android:title="Tukar Koin" />
+            <item
+                android:id="@+id/nav_donasi"
+
+                android:title="Donasi" />
+            <item
+                android:id="@+id/nav_tentangsampah"
+
+                android:title="Tentang Sampah Kita" />
+            <item
+                android:id="@+id/nav_dai"
+
+                android:title="Dana Amal Indonesia" />
+        </menu>
+    </item>
+
+</menu>

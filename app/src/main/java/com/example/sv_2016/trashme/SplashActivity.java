@@ -1,0 +1,36 @@
+package com.example.sv_2016.trashme;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.support.multidex.MultiDex;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class SplashActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splash);
+        Thread thread = new Thread(){
+            @Override
+            public void run() {
+                try {
+                    sleep(4000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                } finally {
+                    startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                    finish();
+                }
+            }
+        };
+        thread.start();
+    }
+    @Override
+    protected void attachBaseContext(Context context) {
+        super.attachBaseContext(context);
+        MultiDex.install(this);
+    }
+}
