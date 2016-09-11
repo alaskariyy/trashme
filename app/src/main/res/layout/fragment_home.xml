@@ -9,7 +9,8 @@
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:id="@+id/scrollView7" >
+        android:id="@+id/scrollView7"
+        android:layout_above="@+id/textView37">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -64,7 +65,7 @@
                 android:id="@+id/relativeLayout"
                 android:visibility="visible"
                 android:gravity="center"
-                android:layout_below="@+id/imageView2">
+                android:layout_below="@+id/radioGroup">
 
                 <LinearLayout
                     android:orientation="horizontal"
@@ -110,7 +111,7 @@
                     android:id="@+id/viewpageNews"
                     android:layout_height="fill_parent"
                     android:layout_width="fill_parent"
-                    android:layout_alignParentTop="true">
+                    android:layout_below="@+id/linearLayout4">
                 </android.support.v4.view.ViewPager>
 
 
@@ -169,7 +170,8 @@
                     android:layout_below="@+id/scrollView"
                     android:background="#fb0000"
                     android:layout_margin="10dp"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:onClick="clickDonate">
 
                     <LinearLayout
                         android:orientation="vertical"
@@ -203,7 +205,8 @@
                     android:layout_below="@+id/scrollView"
                     android:background="#fdc726"
                     android:layout_margin="10dp"
-                    android:gravity="center" >
+                    android:gravity="center"
+                    android:onClick="clickTukar">
 
                     <LinearLayout
                         android:orientation="vertical"
@@ -248,7 +251,8 @@
                         android:layout_width="fill_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:gravity="center" >
+                        android:gravity="center"
+                        android:onClick="clickTentang">
 
                         <ImageView
                             android:layout_width="107dp"
@@ -274,7 +278,8 @@
                     android:layout_below="@+id/scrollView"
                     android:background="#fdc726"
                     android:layout_margin="10dp"
-                    android:gravity="center" >
+                    android:gravity="center"
+                    android:onClick="clickDai">
 
                     <LinearLayout
                         android:orientation="vertical"
@@ -305,5 +310,15 @@
 
         </RelativeLayout>
     </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="TrashMeApp v1.0.0mockup"
+        android:id="@+id/textView37"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
